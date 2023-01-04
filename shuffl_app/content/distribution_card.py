@@ -1,5 +1,7 @@
 from dash import html
 import dash_mantine_components as dmc
+from shuffl_app.simulation import Deck
+
 
 title = html.Div(
     [
@@ -17,4 +19,4 @@ title = html.Div(
 )
 
 
-card_left = html.Div(className="card left", children=[title])
+card_left = html.Div(className="card left", children=[title, Deck().reveal()])

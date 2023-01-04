@@ -3,3 +3,4 @@ dash-mantine-components
 pandas
 pre-commit
 dash-iconify
+scipy
